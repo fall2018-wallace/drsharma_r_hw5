@@ -15,16 +15,6 @@
             "target": "clean.R"
         },
         {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
             "ports": [],
             "source": "clean.R",
             "target": "MergeArrests.R"
@@ -33,9 +23,6 @@
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "data.csv"
         },
         {
             "assigned_to": "drsharma",
@@ -48,6 +35,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:06:27",
+    "updated_at": "2018-10-04 17:06:35",
     "url": "https://github.com/fall2018-wallace/drsharma_r_hw5"
 }
