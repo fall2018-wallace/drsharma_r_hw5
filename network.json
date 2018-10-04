@@ -15,7 +15,12 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
+            "ports": [
+                {
+                    "output": "Clean.R",
+                    "type": "r_obj"
+                }
+            ],
             "source": "clean.R",
             "target": "MergeArrests.R"
         }
@@ -35,6 +40,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:06:35",
+    "updated_at": "2018-10-04 17:10:27",
     "url": "https://github.com/fall2018-wallace/drsharma_r_hw5"
 }
