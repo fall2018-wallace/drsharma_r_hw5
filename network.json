@@ -18,7 +18,7 @@
             "ports": [
                 {
                     "input": "undefined",
-                    "output": "Clean",
+                    "output": "cleanCensus",
                     "type": "r_obj"
                 }
             ],
@@ -41,6 +41,6 @@
             "name": "MergeArrests.R"
         }
     ],
-    "updated_at": "2018-10-04 17:10:37",
+    "updated_at": "2018-10-04 17:28:31",
     "url": "https://github.com/fall2018-wallace/drsharma_r_hw5"
 }
