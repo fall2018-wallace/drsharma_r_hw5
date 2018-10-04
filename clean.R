@@ -7,4 +7,5 @@ readStates <- function(states)
     
     num.row <- nrow(states)
     states <- states[-num.row,]
+    states <- states[,-1:-4]
 }
