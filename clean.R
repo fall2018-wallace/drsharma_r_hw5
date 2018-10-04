@@ -4,6 +4,7 @@
 readStates <- function(states)
 {
 #removing rows that are not needed
+# -- first row is the total for the US, we do not need that
     states <- states[-1,]
     
     num.row <- nrow(states)
