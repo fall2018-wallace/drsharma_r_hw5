@@ -30,14 +30,15 @@
             "name": "scprc_est_2017_18_pop_res.csv"
         },
         {
-            "assigned_to": "drsharma",
-            "name": "clean.R",
-            "task_status": "in progress"
+            "name": "data.csv"
         },
         {
-            "name": "data.csv"
+            "assigned_to": "drsharma",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-10-04 17:01:19",
+    "updated_at": "2018-10-04 17:02:12",
     "url": "https://github.com/fall2018-wallace/drsharma_r_hw5"
 }
